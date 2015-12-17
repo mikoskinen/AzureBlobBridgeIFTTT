@@ -8,7 +8,7 @@ The project is intended to be used with the IFTTT's Maker-channel. Example:
 
 Feedly (new post) -> Maker channel -> Azure Blob Bridge -> Azure Blob storage (new post stored as a blob) 
 
-Azure Blob Bridge works by providing HTTP PUT API for uploading blobs to your Azure Storage Account. 
+Azure Blob Bridge works by providing HTTP POST API for uploading blobs to your Azure Storage Account. 
 
 ## Configuration
 
@@ -22,9 +22,9 @@ You need to define three configuration settings, either through the Azure Deploy
 
 Coming soon.
 
-## Usage with HTTP PUT
+## Usage with HTTP POST
 <pre><code>
-PUT http://myapp.domain.com/api/apikey HTTP/1.1
+POST http://myapp.domain.com/api/apikey HTTP/1.1
 Content-Length: 38
 Content-type: Application/json
 

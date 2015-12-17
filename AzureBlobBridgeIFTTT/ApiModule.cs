@@ -11,7 +11,7 @@ namespace AzureBlobBridgeIFTTT
     {
         public ApiModule(CloudBlobContainer blobContainer) : base("/api")
         {
-            Put[ConfigurationManager.AppSettings["apiKey"], true] = async (ct, parameters) =>
+            Post[ConfigurationManager.AppSettings["apiKey"], true] = async (ct, parameters) =>
             {
                 var contentType = Request.Headers.ContentType;
                 if (!string.IsNullOrWhiteSpace(contentType))
