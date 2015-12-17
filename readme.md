@@ -1,5 +1,7 @@
 # Azure Blob Bridge for IFTTT
 
+![Azure Blob Bridge for IFTTT logo](https://raw.githubusercontent.com/mikoskinen/AzureBlobBridgeIFTTT/master/logo/logo_small.jpg)
+
 Azure Blob Bridge for IFTTT provides an easy way to use Azure Blob storage as a IFTTT destination channel. 
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
