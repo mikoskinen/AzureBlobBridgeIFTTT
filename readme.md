@@ -2,13 +2,13 @@
 
 ![Azure Blob Bridge for IFTTT logo](https://raw.githubusercontent.com/mikoskinen/AzureBlobBridgeIFTTT/master/logo/logo_small.jpg)
 
-Azure Blob Bridge for IFTTT provides an easy way to use Azure Blob storage as a IFTTT destination channel. 
+Azure Blob Bridge for IFTTT provides an easy way to use Azure Blob storage as a IFTTT destination Channel. 
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
-The project is intended to be used with the IFTTT's Maker-channel. Example:
+The project is intended to be used with the IFTTT's Maker-Channel. Example:
 
-Feedly (new post) -> Maker channel -> Azure Blob Bridge -> Azure Blob storage (new post stored as a blob) 
+Feedly (new post) -> Maker Channel -> Azure Blob Bridge -> Azure Blob storage (new post stored as a blob) 
 
 Azure Blob Bridge works by providing HTTP POST API for uploading blobs to your Azure Storage Account. 
 
@@ -40,7 +40,7 @@ DateTime.UtcNow.Ticks + ".dat";
 
 ## Background
 
-Unfortunately IFTTT doesn't currently provide channel for Azure Blob storage. This project can be used to work around the limitation.
+Unfortunately IFTTT doesn't currently provide Channel for Azure Blob storage. This project can be used to work around the limitation.
 
 ## Contact
 
